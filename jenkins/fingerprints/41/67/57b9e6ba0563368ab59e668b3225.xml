@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-09-23 09:44:57.165 UTC</timestamp>
+  <md5sum>416757b9e6ba0563368ab59e668b3225</md5sum>
+  <fileName>com.google.errorprone:error_prone_annotations-2.2.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>maven/com.github.javaparser:javaparser-book</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>maven</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

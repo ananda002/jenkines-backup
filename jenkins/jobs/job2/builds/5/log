@@ -1,0 +1,29 @@
+Started by an SCM change
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/job2
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ananda002/git_repo.git # timeout=10
+Fetching upstream changes from https://github.com/ananda002/git_repo.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/ananda002/git_repo.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision bba4a735d293924f763901c305effa1fe08f2c29 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bba4a735d293924f763901c305effa1fe08f2c29
+Commit message: "Update palindrome.c"
+ > git rev-list --no-walk 0358b8f1852f3f31c37e6530a97e43c0e2cbd930 # timeout=10
+[job2] $ /bin/sh -xe /tmp/jenkins8553122845831313045.sh
++ ls -lrt
+total 40
+-rwxr-xr-x. 1 jenkins jenkins 11320 Sep 21 07:42 ABC.exe
+-rw-r--r--. 1 jenkins jenkins  2112 Sep 21 07:42 palindrome.o
+-rw-r--r--. 1 jenkins jenkins   191 Sep 21 07:42 makefile
+-rw-r--r--. 1 jenkins jenkins  1432 Sep 21 07:42 main.o
+-rw-r--r--. 1 jenkins jenkins    50 Sep 21 07:42 main.c
+-rw-r--r--. 1 jenkins jenkins  1896 Sep 21 07:42 fact.o
+-rw-r--r--. 1 jenkins jenkins   478 Sep 21 07:42 fact.c
+-rw-r--r--. 1 jenkins jenkins   640 Sep 21 08:16 palindrome.c
+Finished: SUCCESS

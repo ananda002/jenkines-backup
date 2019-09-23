@@ -1,0 +1,6 @@
+<l:dependencies xmlns:l='licenses'>
+  <l:dependency name='Jenkins Upstream Downstream Column Plugin' groupId='org.jenkins-ci.plugins' artifactId='upstream-downstream-view' version='1.003' url='https://wiki.jenkins-ci.org/display/JENKINS/Upstream+Downstream+View+Plugin'>
+    <l:description>Provides the new column view for Upstreamed/Downstreamed jobs</l:description>
+    <l:license name='The MIT license' url='http://www.opensource.org/licenses/mit-license.php' />
+  </l:dependency>
+</l:dependencies>

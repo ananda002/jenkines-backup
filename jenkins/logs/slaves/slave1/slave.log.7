@@ -1,0 +1,17 @@
+SSHLauncher{host='18.191.9.160', port=22, credentialsId='9e1a06b5-52a7-4ab3-9927-c736a0f5166d', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=210, maxNumRetries=10, retryWaitTime=5, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.ManuallyTrustedKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
+[09/23/19 08:03:17] [SSH] Opening SSH connection to 18.191.9.160:22.
+Connection timed out (Connection timed out)
+SSH Connection failed with IOException: "Connection timed out (Connection timed out)", retrying in 5 seconds.  There are 10 more retries left.
+ERROR: null
+java.util.concurrent.CancellationException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:121)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at hudson.plugins.sshslaves.SSHLauncher.launch(SSHLauncher.java:481)
+	at hudson.slaves.SlaveComputer$1.call(SlaveComputer.java:294)
+	at jenkins.util.ContextResettingExecutorService$2.call(ContextResettingExecutorService.java:46)
+	at jenkins.security.ImpersonatingExecutorService$2.call(ImpersonatingExecutorService.java:71)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[09/23/19 08:06:47] Launch failed - cleaning up connection

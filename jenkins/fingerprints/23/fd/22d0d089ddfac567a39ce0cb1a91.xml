@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-09-23 09:44:57.43 UTC</timestamp>
+  <md5sum>23fd22d0d089ddfac567a39ce0cb1a91</md5sum>
+  <fileName>org.javassist:javassist-3.24.0-GA.jar</fileName>
+  <usages>
+    <entry>
+      <string>maven/com.github.javaparser:javaparser-book</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>maven</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

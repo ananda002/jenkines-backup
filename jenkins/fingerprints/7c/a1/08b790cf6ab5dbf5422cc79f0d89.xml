@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-09-23 09:44:57.343 UTC</timestamp>
+  <md5sum>7ca108b790cf6ab5dbf5422cc79f0d89</md5sum>
+  <fileName>org.codehaus.mojo:animal-sniffer-annotations-1.17.jar</fileName>
+  <usages>
+    <entry>
+      <string>maven/com.github.javaparser:javaparser-book</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>maven</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

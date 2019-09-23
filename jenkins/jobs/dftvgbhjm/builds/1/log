@@ -1,0 +1,7 @@
+Started by user [8mha:////4J8s48fd2tcCXDX6yVYOk/EasQFzvv+TYkk5LYrAgqdfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9oszijEwAmL5xacAAAAA=[0mrishi
+Running as SYSTEM
+Building remotely on [8mha:////4H9eVpGh8kNTmFXmntD7F19WqdhXhGrMxLbQDHm1VjARAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 in workspace /home/ec2-user/workspace/dftvgbhjm
+[dftvgbhjm] $ /bin/sh -xe /tmp/jenkins3482726010612860103.sh
++ echo 123
+123
+Finished: SUCCESS

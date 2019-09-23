@@ -1,0 +1,69 @@
+Started by user [8mha:////4J8s48fd2tcCXDX6yVYOk/EasQFzvv+TYkk5LYrAgqdfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9oszijEwAmL5xacAAAAA=[0mrishi
+Running as SYSTEM
+Building remotely on [8mha:////4Ovzr30/oFzCV3e/5uLzjzrtah61v2cCYcsO5Lq8F2IIAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 in workspace /home/ec2-user/workspace/build job
+Warning: CredentialId "120e822d-0cd3-4bdc-b3bc-50de9b2c16d6" could not be found.
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ananda002/git_repo.git # timeout=10
+Fetching upstream changes from https://github.com/ananda002/git_repo.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/ananda002/git_repo.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision bba4a735d293924f763901c305effa1fe08f2c29 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bba4a735d293924f763901c305effa1fe08f2c29
+Commit message: "Update palindrome.c"
+ > git rev-list --no-walk bba4a735d293924f763901c305effa1fe08f2c29 # timeout=10
+[build job] $ /bin/sh -xe /tmp/jenkins4798577740234811051.sh
++ ls -lrt
+total 40
+-rw-rw-r--. 1 ec2-user ec2-user  2112 Sep 22 10:51 palindrome.o
+-rw-rw-r--. 1 ec2-user ec2-user   640 Sep 22 10:51 palindrome.c
+-rw-rw-r--. 1 ec2-user ec2-user   191 Sep 22 10:51 makefile
+-rw-rw-r--. 1 ec2-user ec2-user  1432 Sep 22 10:51 main.o
+-rw-rw-r--. 1 ec2-user ec2-user    50 Sep 22 10:51 main.c
+-rw-rw-r--. 1 ec2-user ec2-user  1896 Sep 22 10:51 fact.o
+-rw-rw-r--. 1 ec2-user ec2-user   478 Sep 22 10:51 fact.c
+-rwxrwxr-x. 1 ec2-user ec2-user 11320 Sep 22 10:51 ABC.exe
++ ssh -i good.pem ec2-user@ec2-18-223-99-239.us-east-2.compute.amazonaws.com
+Warning: Identity file good.pem not accessible: No such file or directory.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+ssh: connect to host ec2-18-223-99-239.us-east-2.compute.amazonaws.com port 22: Connection timed out
+Build step 'Execute shell' marked build as failure
+Sending e-mails to: anand.h483@gmail.com
+ERROR: Could not connect to SMTP host: localhost, port: 25
+javax.mail.MessagingException: Could not connect to SMTP host: localhost, port: 25;
+  nested exception is:
+	java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1934)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:638)
+	at javax.mail.Service.connect(Service.java:295)
+	at javax.mail.Service.connect(Service.java:176)
+	at javax.mail.Service.connect(Service.java:125)
+	at javax.mail.Transport.send0(Transport.java:194)
+	at javax.mail.Transport.send(Transport.java:124)
+	at hudson.tasks.MailSender.run(MailSender.java:130)
+	at hudson.tasks.Mailer.perform(Mailer.java:175)
+	at hudson.tasks.Mailer.perform(Mailer.java:138)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:741)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:690)
+	at hudson.model.Build$BuildExecution.post2(Build.java:186)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:635)
+	at hudson.model.Run.execute(Run.java:1843)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:286)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:231)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1900)
+	... 18 more
+Finished: FAILURE

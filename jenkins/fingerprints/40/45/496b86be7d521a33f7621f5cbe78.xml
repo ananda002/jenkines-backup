@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-09-23 09:44:57.319 UTC</timestamp>
+  <md5sum>4045496b86be7d521a33f7621f5cbe78</md5sum>
+  <fileName>com.github.javaparser:javaparser-core-3.14.159265359.jar</fileName>
+  <usages>
+    <entry>
+      <string>maven/com.github.javaparser:javaparser-book</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>maven</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

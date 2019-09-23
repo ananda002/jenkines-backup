@@ -1,0 +1,5 @@
+Started by user [8mha:////4J8s48fd2tcCXDX6yVYOk/EasQFzvv+TYkk5LYrAgqdfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9oszijEwAmL5xacAAAAA=[0mrishi
+Running as SYSTEM
+Building remotely on [8mha:////4Ovzr30/oFzCV3e/5uLzjzrtah61v2cCYcsO5Lq8F2IIAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 in workspace /home/ec2-user/workspace/maven_project
+ERROR: A Maven installation needs to be available for this project to be built.Either your server has no Maven installations defined, or the requested Maven version does not exist.
+Finished: FAILURE

@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-09-23 09:44:57.62 UTC</timestamp>
+  <md5sum>984b739eea9a1ad44bd7193624ddfebd</md5sum>
+  <fileName>org.easymock:easymock-3.5.1.jar</fileName>
+  <usages>
+    <entry>
+      <string>maven/com.github.javaparser:javaparser-book</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>maven</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

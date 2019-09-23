@@ -1,0 +1,35 @@
+Started by user [8mha:////4J8s48fd2tcCXDX6yVYOk/EasQFzvv+TYkk5LYrAgqdfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9oszijEwAmL5xacAAAAA=[0mrishi
+Running as SYSTEM
+Building remotely on [8mha:////4Ovzr30/oFzCV3e/5uLzjzrtah61v2cCYcsO5Lq8F2IIAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 in workspace /home/ec2-user/workspace/build job
+Warning: CredentialId "120e822d-0cd3-4bdc-b3bc-50de9b2c16d6" could not be found.
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ananda002/git_repo.git # timeout=10
+Fetching upstream changes from https://github.com/ananda002/git_repo.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/ananda002/git_repo.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision bba4a735d293924f763901c305effa1fe08f2c29 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bba4a735d293924f763901c305effa1fe08f2c29
+Commit message: "Update palindrome.c"
+ > git rev-list --no-walk bba4a735d293924f763901c305effa1fe08f2c29 # timeout=10
+[build job] $ /bin/sh -xe /tmp/jenkins2814398465183334022.sh
++ ls -lrt
+total 40
+-rw-rw-r--. 1 ec2-user ec2-user  2112 Sep 22 10:51 palindrome.o
+-rw-rw-r--. 1 ec2-user ec2-user   640 Sep 22 10:51 palindrome.c
+-rw-rw-r--. 1 ec2-user ec2-user   191 Sep 22 10:51 makefile
+-rw-rw-r--. 1 ec2-user ec2-user  1432 Sep 22 10:51 main.o
+-rw-rw-r--. 1 ec2-user ec2-user    50 Sep 22 10:51 main.c
+-rw-rw-r--. 1 ec2-user ec2-user  1896 Sep 22 10:51 fact.o
+-rw-rw-r--. 1 ec2-user ec2-user   478 Sep 22 10:51 fact.c
+-rwxrwxr-x. 1 ec2-user ec2-user 11320 Sep 22 10:51 ABC.exe
++ ssh -i good.pem ec2-user@ec2-18-223-99-239.us-east-2.compute.amazonaws.com
+Warning: Identity file good.pem not accessible: No such file or directory.
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+ssh: connect to host ec2-18-223-99-239.us-east-2.compute.amazonaws.com port 22: Connection timed out
+Build step 'Execute shell' marked build as failure
+An attempt to send an e-mail to empty list of recipients, ignored.
+Finished: FAILURE

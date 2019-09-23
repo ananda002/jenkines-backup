@@ -1,0 +1,11 @@
+commit bba4a735d293924f763901c305effa1fe08f2c29
+tree ed882481d2ac97a8caa8a15413576b273c2c6b28
+parent 0358b8f1852f3f31c37e6530a97e43c0e2cbd930
+author ananda002 <35926391+ananda002@users.noreply.github.com> 2019-09-21 13:45:02 +0530
+committer GitHub <noreply@github.com> 2019-09-21 13:45:02 +0530
+
+    Update palindrome.c
+
+
+
+:100644 100644 abc840d9229d26c4b914929cead52db5c5948967 867927cfdaf91fa7bc5fa7e08a7b527b582e2029 M	palindrome.c

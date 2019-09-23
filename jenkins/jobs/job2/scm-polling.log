@@ -1,0 +1,10 @@
+Started on Sep 23, 2019 11:08:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision bba4a735d293924f763901c305effa1fe08f2c29 (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/ananda002/git_repo.git # timeout=10
+Found 1 remote heads on https://github.com/ananda002/git_repo.git
+[poll] Latest remote head revision on refs/heads/master is: bba4a735d293924f763901c305effa1fe08f2c29 - already built by 5
+Done. Took 0.11 sec
+No changes

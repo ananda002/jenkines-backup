@@ -1,0 +1,31 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@3.4">
+  <actions>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record/>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>com.github.javaparser</groupId>
+        <artifactId>javaparser-book</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>javaparser-book-1.0-SNAPSHOT.pom</canonicalName>
+        <md5sum>cbf27ac3f9b8a9702553bce46be2efac</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+    </hudson.maven.reporters.MavenArtifactRecord>
+  </actions>
+  <queueId>-1</queueId>
+  <timestamp>1569156938257</timestamp>
+  <startTime>1569157464303</startTime>
+  <result>FAILURE</result>
+  <duration>185045</duration>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/raju</workspace>
+</hudson.maven.MavenBuild>

@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-09-23 09:44:56.979 UTC</timestamp>
+  <original>
+    <name>maven/com.github.javaparser:javaparser-book</name>
+    <number>1</number>
+  </original>
+  <md5sum>eda6ee09a77f2bd14d05cf6b5d9f5538</md5sum>
+  <fileName>com.github.javaparser:javaparser-book-1.0-SNAPSHOT.jar</fileName>
+  <usages>
+    <entry>
+      <string>maven/com.github.javaparser:javaparser-book</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>maven</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

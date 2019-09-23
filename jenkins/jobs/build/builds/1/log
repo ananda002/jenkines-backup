@@ -1,0 +1,35 @@
+Started by user [8mha:////4J8s48fd2tcCXDX6yVYOk/EasQFzvv+TYkk5LYrAgqdfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9oszijEwAmL5xacAAAAA=[0mrishi
+Running as SYSTEM
+Building remotely on [8mha:////4JiUzcFWXShKsmKEqex5zVkAQds72dv/mdhOGRv8AEYaAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYx/eT83ILSktQi/aLUlIzEkvjinMSyVADVMxhxywAAAA==[0mredhat_slave (redhat) in workspace /home/ec2-user/workspace/build
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/ananda002/git_repo.git
+ > git init /home/ec2-user/workspace/build # timeout=10
+Fetching upstream changes from https://github.com/ananda002/git_repo.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/ananda002/git_repo.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/ananda002/git_repo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ananda002/git_repo.git # timeout=10
+Fetching upstream changes from https://github.com/ananda002/git_repo.git
+ > git fetch --tags --progress -- https://github.com/ananda002/git_repo.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision bba4a735d293924f763901c305effa1fe08f2c29 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bba4a735d293924f763901c305effa1fe08f2c29
+Commit message: "Update palindrome.c"
+First time build. Skipping changelog.
+[build] $ /bin/sh -xe /tmp/jenkins9148183908027013739.sh
++ ls -lrt
+total 40
+-rw-rw-r--. 1 ec2-user ec2-user  2112 Sep 21 18:19 palindrome.o
+-rw-rw-r--. 1 ec2-user ec2-user   640 Sep 21 18:19 palindrome.c
+-rw-rw-r--. 1 ec2-user ec2-user   191 Sep 21 18:19 makefile
+-rw-rw-r--. 1 ec2-user ec2-user  1432 Sep 21 18:19 main.o
+-rw-rw-r--. 1 ec2-user ec2-user    50 Sep 21 18:19 main.c
+-rw-rw-r--. 1 ec2-user ec2-user  1896 Sep 21 18:19 fact.o
+-rw-rw-r--. 1 ec2-user ec2-user   478 Sep 21 18:19 fact.c
+-rwxrwxr-x. 1 ec2-user ec2-user 11320 Sep 21 18:19 ABC.exe
+[build] $ /bin/sh -xe /tmp/jenkins2813602350360772589.sh
+Finished: SUCCESS

@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-09-20 09:25:44.624 UTC</timestamp>
+  <md5sum>e61f8d1b3c12f1553ba4308bc6ba9f5e</md5sum>
+  <fileName>Credential id=30f18916-d495-4d4e-9ab7-7ffd3832a574 name=build_slave/******</fileName>
+  <usages>
+    <entry>
+      <string>project1</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet plugin="credentials@2.3.0">
+      <timestamp>1568973569640</timestamp>
+      <nodeName>redhat_slave</nodeName>
+      <timestamp0>1568973512062</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.NodeCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

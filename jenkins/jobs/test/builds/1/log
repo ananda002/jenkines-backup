@@ -1,0 +1,23 @@
+Started by user [8mha:////4J8s48fd2tcCXDX6yVYOk/EasQFzvv+TYkk5LYrAgqdfAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9oszijEwAmL5xacAAAAA=[0mrishi
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/test
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/ananda002/git_repo.git
+ > git init /var/lib/jenkins/workspace/test # timeout=10
+Fetching upstream changes from https://github.com/ananda002/git_repo.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/ananda002/git_repo.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/ananda002/git_repo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ananda002/git_repo.git # timeout=10
+Fetching upstream changes from https://github.com/ananda002/git_repo.git
+ > git fetch --tags --progress -- https://github.com/ananda002/git_repo.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision bba4a735d293924f763901c305effa1fe08f2c29 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bba4a735d293924f763901c305effa1fe08f2c29
+Commit message: "Update palindrome.c"
+First time build. Skipping changelog.
+Finished: SUCCESS
